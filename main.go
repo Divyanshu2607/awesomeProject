@@ -15,5 +15,15 @@ func main() {
 	fmt.Printf("%d * %d = %d\n", a, b, result)
 	var arr [5]int = [5]int{1, 2, 3, 4, 5}
 	fmt.Println(arr)
+	for i := 0; i < len(arr); i++ {
+		fmt.Println(arr[i])
+	}
+	twoD := [2][3]int{
+		{1, 2, 3},
+		{4, 5, 6},
+	}
+	rushik := "name"
+	fmt.Println("rushik:", rushik)
+	fmt.Println(twoD)
 
 }
